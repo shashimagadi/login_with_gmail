@@ -1,0 +1,19 @@
+# Monorepo: client + server ignores
+client/.next/
+client/out/
+client/node_modules/
+server/node_modules/
+server/dist/
+
+# Global ignores
+.env*
+!.env.example
+README.md
+Dockerfile.*
+.dockerignore
+
+# OS/IDE
+.DS_Store
+.vscode/
+.idea/
+*.log
